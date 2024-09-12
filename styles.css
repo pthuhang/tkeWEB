@@ -1,0 +1,63 @@
+table{
+    width: 500px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 2px solid black;
+}
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+h2{
+  color: blue; 
+  background-color: aqua;
+}
+h3{
+    color: blue;
+    background-color: aqua;
+}
+h4{
+    color: blue;
+    background-color: aqua;
+}
+p2{
+    color: blue;
+}
+.highlight{
+    color: blue;
+
+}
+.special{
+    color: rgb(16, 16, 214);
+}
+th{
+    font-weight: 100;
+}
+.miug{
+    font-weight: bold;
+}
+b{
+    font-weight: bold; /* In đậm */
+    color: black;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), /* Hiệu ứng 3D đơn giản */
+                 4px 4px 10px rgba(0, 0, 0, 0.1);  
+}
+.hhhh{
+    margin-left: 0;
+}
+div{
+    position: relative;
+}
+.ha{
+    width: 175px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+img{
+    width: 175px;
+    height: 100px;
+}
