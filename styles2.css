@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    color: white;
+}
+.h{
+    color: yellow;
+}
+.b{
+    color: red;
+}
+.c{
+    color: rgb(106, 127, 247);
+}
+h2{
+    color: rgb(106, 127, 247);  
+}
+.d{
+    width: 60px;
+    height: 30px;
+}
