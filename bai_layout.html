@@ -6,49 +6,118 @@
     <title>Phạm Thị Thu Hằng</title>
     <style>
         body{
-            background-color: rgb(113, 207, 219);
+            background-image: linear-gradient(#D4D2D2, white);
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            /* flex-direction: column; */
+            justify-content: center;
+            align-items: center;
 
         }
-        .containetr{
+        .container{
+            background-color: rgb(211, 226, 182) ;
             width: 90%;
-            margin: 0 auto;
-
+            margin: auto; 
+            min-height: 90vh;
+            display: flex;
+            flex-direction: column;
         }
         .header{
             background-color: rgb(128, 76, 177);
-            height: 100PX;
+            height: 10vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+
+        }
+        .content{
+            display: flex;
+            height: 75vh;
+            flex: 1;
         }
         .left{
             background-color: #90C577;
-            height: 450PX;
             width: 20%;
-            float: left;
+            /* float: left; */
+            padding: 20px;
+        }
+        .left nav ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        .left nav ul li{
+            /* margin: 10px 0; */
+            list-style-type: none;
+               
+        }
+        .left nav ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            display: block;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            background-color: #90C577;
+            border-radius: 5px;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        .left nav ul li a:hover{
+            background-color: #5B8E3D;
         }
         .main{
             background-color: #F8C189;
-            height: 450PX;
             width: 60%;
             float: left;
+            box-sizing: border-box;
+            padding: 20px;
         }
         .right{
             background-color: #FFC6BF;
-            height: 450PX;
             width: 20%;
             float: left;
+            padding: 20px;
         }
         .footer{
             background-color: rgb(185, 54, 54);
-            height: 80PX;
+            height: 15vh;
             clear: both;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
         }
     </style>
 </head>
 <body>
-    <div class="containter">
+    <div class="container">
         <div class="header">Header</div>
-        <div class="left">Left</div>
-        <div class="main">Main</div>
-        <div class="right">Right</div>
+        <div class="content">
+            <div class="left">
+                <nav>
+                    <ul>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#Download">Download</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                        <li><a href="#Other">Other</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="main">Main</div>
+            <div class="right">Right</div>
+        </div>
         <div class="footer">Footer</div>
     </div>
     
