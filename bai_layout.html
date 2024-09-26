@@ -46,17 +46,25 @@
             /* float: left; */
             padding: 20px;
         }
-        .left nav ul{
+        .left nav{
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             height: 100%;
+        }
+        .left nav ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-grow: 1;
             padding: 0;
             margin: 0;
         }
         .left nav ul li{
             /* margin: 10px 0; */
             list-style-type: none;
+            display: flex;
+            flex-grow: 1;
                
         }
         .left nav ul li a{
@@ -64,10 +72,11 @@
             color: white;
             font-size: 18px;
             font-weight: bold;
-            display: block;
+            display: flex;
             align-items: center;
             justify-content: center;
             padding: 10px;
+            width: 100%;
             background-color: #90C577;
             border-radius: 5px;
             text-align: center;
